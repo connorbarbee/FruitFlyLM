@@ -1,5 +1,4 @@
 # FruitFlyLM
-A tiny experimental language model.
 
 Meet FruitFlyLM, the most advanced language model in the world.
 
@@ -39,5 +38,5 @@ Everything runs locally, and the project is public so you can poke at it, modify
 
 Extract all files into a folder, then run `FruitFlyLM.exe`.
 
-<img width="1440" height="900" alt="FruitflyLM_3vxCUojvp7" src="https://github.com/user-attachments/assets/9182f14c-3622-4c02-94ed-69067495efb3" />
 <img width="1440" height="900" alt="FruitflyLM_0jsHqQ4Ph9" src="https://github.com/user-attachments/assets/208669ff-943c-4793-a2c2-93482fd0a440" />
+<img width="1440" height="900" alt="FruitflyLM_3vxCUojvp7" src="https://github.com/user-attachments/assets/9182f14c-3622-4c02-94ed-69067495efb3" />
