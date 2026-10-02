@@ -4,7 +4,7 @@ A tiny experimental language model.
 Meet FruitFlyLM, the most advanced language model in the world.
 
 Jokes aside, FruitFlyLM is an experimental local AI / language model project that combines a traditional GGUF-based LLM with something significantly weirder: the connectome of a deceased fruit fly.
-The included build uses a small Qwen-based model, but **FruitFlyLM is designed to work with other compatible GGUF language models**, so you can swap the underlying LLM rather than being locked to one brain.
+The included build uses a small Qwen-based model, but **FruitFlyLM is designed to work with other compatible GGUF language models**, so you can swap the underlying LLM rather than being locked to one.
 
 Its default persona is Wilson.
 
