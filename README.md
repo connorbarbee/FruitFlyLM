@@ -1,1 +1,1 @@
-Original Wilson fly icon, drawn locally using geometric shapes. No network or external artwork used. Covered by the project license. Source: scripts/make_fly_icon.py. PNG master is 1024px; ICO includes 16, 24, 32, 48, 64, 128 and 256px variants.
+Original Wilson FruitFly brian
