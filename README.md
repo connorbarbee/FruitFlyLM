@@ -18,7 +18,7 @@ The connectome itself is also exposed through an interactive graph, allowing you
 
 FruitFlyLM is primarily an experiment exploring the question:
 
-**What happens when you combine a language model with an actual biological neural structure, and give the user direct feedback over both?**
+**What happens when you combine a language model with real biological neural structure, and give the user direct feedback over both?**
 
 It is a strange local AI experiment combining:
 
