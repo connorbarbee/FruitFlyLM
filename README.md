@@ -28,7 +28,7 @@ It is a strange  local AI experiment combining:
 - Interactive neural graph visualization
 - The Wilson persona
 
-Everything runs locally, and the project is public so you can poke at it, modify it, swap models, or just experiment with the connectome.
+Everything runs locally with no network connection required. The project is public so you can poke at it, modify it, swap models, or just experiment with the connectome.
 
 To use it, download the release (https://github.com/connorbarbee/FruitFlyLM/releases/tag/v0.4.0) and run FruitFlyLM.exe.
 
