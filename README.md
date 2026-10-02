@@ -30,9 +30,11 @@ It is a strange  local AI experiment combining:
 
 Everything runs locally with no network connection required. The project is public so you can poke at it, modify it, swap models, or just experiment with the connectome.
 
-To use it, download the release below, extract and run FruitFlyLM.exe.
+## Download
 
-(https://github.com/connorbarbee/FruitFlyLM/releases/tag/v0.4.0)
+**[Download FruitFlyLM v0.4.0 for Windows x64](https://github.com/connorbarbee/FruitFlyLM/releases/tag/v0.4.0)**
+
+Extract the archive and run `FruitFlyLM.exe`.
 
 <img width="1440" height="900" alt="FruitflyLM_3vxCUojvp7" src="https://github.com/user-attachments/assets/9182f14c-3622-4c02-94ed-69067495efb3" />
 <img width="1440" height="900" alt="FruitflyLM_0jsHqQ4Ph9" src="https://github.com/user-attachments/assets/208669ff-943c-4793-a2c2-93482fd0a440" />
