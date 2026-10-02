@@ -33,7 +33,6 @@ Everything runs locally, and the project is public so you can poke at it, modify
 ## Download
 
 (https://github.com/connorbarbee/FruitFlyLM/releases/tag/v0.4.0)
-**[Download FruitFlyLM v0.4.0 for Windows x64]**
 
 Extract all into a folder, then run `FruitFlyLM.exe`.
 
