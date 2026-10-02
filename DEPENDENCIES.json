@@ -1,0 +1,42 @@
+{
+  "scope": "Locally inspected primary dependencies; not a complete transitive SBOM",
+  "components": [
+    {
+      "name": "Qt",
+      "version": "6.8.3",
+      "purpose": "Native UI/Core",
+      "network_modules_bundled": false
+    },
+    {
+      "name": "llama.cpp",
+      "version": "b7600",
+      "purpose": "Local GGUF inference",
+      "network_features_enabled": false
+    },
+    {
+      "name": "Huihui Qwen3 1.7B v2",
+      "format": "Q3_K_M GGUF",
+      "purpose": "Default model"
+    },
+    {
+      "name": "Huihui Qwen3 0.6B v2",
+      "format": "Q8_0 GGUF",
+      "purpose": "Local review helper"
+    },
+    {
+      "name": "Qwen3 1.7B abliterated projection LoRA",
+      "format": "F16 GGUF",
+      "purpose": "Experimental Chat-only adapter"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "purpose": "Bundled Python tool dependency"
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "purpose": "Bundled Python tool dependency"
+    }
+  ]
+}

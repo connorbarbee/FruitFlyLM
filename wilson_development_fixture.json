@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "name": "Wilson development fixture",
+    "source": "hand-authored controller fixture; NOT biological; use scripts/derive_malecns_reduced.py for MaleCNS-derived graph",
+    "license": "MIT for fixture structure; not MaleCNS data",
+    "derived": false,
+    "development_fixture": true,
+    "notes": "Small bounded graph for GUI/CI preview only. The app exposes this status so it cannot be mistaken for real connectome mode. Node x/y coordinates are an abstract reduced brain-map layout, not anatomical coordinates."
+  },
+  "nodes": [
+    {
+      "id": "task_sensory",
+      "role": "task/environment input",
+      "bias": 0.02,
+      "region": "optic/sensory input",
+      "x": 0.18,
+      "y": 0.43
+    },
+    {
+      "id": "error_sensory",
+      "role": "error/failed tool input",
+      "bias": 0.0,
+      "region": "aversive/error input",
+      "x": 0.24,
+      "y": 0.66
+    },
+    {
+      "id": "attention_gate",
+      "role": "attention/control gate",
+      "bias": 0.05,
+      "region": "central complex / attention",
+      "x": 0.5,
+      "y": 0.38
+    },
+    {
+      "id": "memory_trace",
+      "role": "persistence/working trace",
+      "bias": 0.05,
+      "region": "mushroom body / working trace",
+      "x": 0.5,
+      "y": 0.18
+    },
+    {
+      "id": "exploration_pool",
+      "role": "alternative-search drive",
+      "bias": 0.04,
+      "region": "lateral protocerebrum / exploration",
+      "x": 0.76,
+      "y": 0.38
+    },
+    {
+      "id": "uncertainty_pool",
+      "role": "uncertainty accumulator",
+      "bias": 0.03,
+      "region": "protocerebrum / uncertainty",
+      "x": 0.66,
+      "y": 0.61
+    },
+    {
+      "id": "reward_dopamine",
+      "role": "success/reward signal",
+      "bias": 0.0,
+      "region": "dopaminergic reward",
+      "x": 0.44,
+      "y": 0.64
+    },
+    {
+      "id": "fatigue_pool",
+      "role": "step cost/fatigue",
+      "bias": 0.02,
+      "region": "homeostatic load",
+      "x": 0.76,
+      "y": 0.76
+    },
+    {
+      "id": "motor_tool",
+      "role": "tool-action output",
+      "bias": 0.03,
+      "region": "descending motor/tool output",
+      "x": 0.5,
+      "y": 0.86
+    }
+  ],
+  "edges": [
+    {
+      "src": "task_sensory",
+      "dst": "attention_gate",
+      "weight": 0.55
+    },
+    {
+      "src": "task_sensory",
+      "dst": "memory_trace",
+      "weight": 0.35
+    },
+    {
+      "src": "attention_gate",
+      "dst": "motor_tool",
+      "weight": 0.45
+    },
+    {
+      "src": "memory_trace",
+      "dst": "motor_tool",
+      "weight": 0.25
+    },
+    {
+      "src": "error_sensory",
+      "dst": "uncertainty_pool",
+      "weight": 0.65
+    },
+    {
+      "src": "uncertainty_pool",
+      "dst": "exploration_pool",
+      "weight": 0.6
+    },
+    {
+      "src": "exploration_pool",
+      "dst": "attention_gate",
+      "weight": 0.25
+    },
+    {
+      "src": "reward_dopamine",
+      "dst": "memory_trace",
+      "weight": 0.4
+    },
+    {
+      "src": "reward_dopamine",
+      "dst": "exploration_pool",
+      "weight": -0.25
+    },
+    {
+      "src": "fatigue_pool",
+      "dst": "attention_gate",
+      "weight": -0.3
+    },
+    {
+      "src": "fatigue_pool",
+      "dst": "memory_trace",
+      "weight": -0.2
+    }
+  ]
+}
