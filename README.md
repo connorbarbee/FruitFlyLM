@@ -17,7 +17,7 @@ FruitFlyLM is primarily an experiment exploring the question:
 
 What happens when you combine a modern language model with an actual biological neural structure, and give the user direct feedback over both?
 
-It is a strange  local AI experiment combining:
+It is a strange local AI experiment combining:
 
 - Local LM inference
 - GGUF model support
